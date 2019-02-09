@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-material';
+
+  otherTheme: boolean = false;
+
+  changeTheme() {
+    this.otherTheme = !this.otherTheme;
+  }
 }
